@@ -3,4 +3,5 @@ grep -i agujeros anillo.txt
 grep -w anillo anillo.txt
 grep -v -n anillo anillo.txt/anillo.txt 
 grep -n -i frodo. anillo.txt 
-grep -i "Mordor" anillo.txt/anillo.txt 
+grep -i "Mordor$" anillo.txt/anillo.txt 
+ grep -n "que" anillo.txt/anillo.txt| grep -n "fue" anillo.txt/anillo.txt
