@@ -1,2 +1,3 @@
 grep -H agujeros anillo.txt 
 grep -i agujeros anillo.txt
+grep -w anillo anillo.txt
