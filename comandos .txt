@@ -1,4 +1,5 @@
 grep -H agujeros anillo.txt 
 grep -i agujeros anillo.txt
 grep -w anillo anillo.txt
-$ grep -v -n anillo anillo.txt/anillo.txt 
+grep -v -n anillo anillo.txt/anillo.txt 
+grep -n -i frodo. anillo.txt 
