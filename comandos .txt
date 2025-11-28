@@ -2,6 +2,9 @@ grep -H agujeros anillo.txt
 grep -i agujeros anillo.txt
 grep -w anillo anillo.txt
 grep -v -n anillo anillo.txt/anillo.txt 
-grep -n -i frodo. anillo.txt 
-grep -i "Mordor$" anillo.txt/anillo.txt 
- grep -n "que" anillo.txt/anillo.txt| grep -n "fue" anillo.txt/anillo.txt
+grep -n "^frodo." anillo.txt 
+grep -n "Mordor$" anillo.txt/anillo.txt 
+(grep -n "que" anillo.txt/anillo.txt| grep -n "fue" anillo.txt/anillo.txt)$ grep -n "[fq]ue" anillos.txt/anillo.txt/anillo.txt
+grep -n -B 2 elfo anillos.txt/anillo.txt/anillo.txt 
+grep -i -A 1 compañía anillos.txt/anillo.txt/anillo.txt
+grep -n Gandalf anillos.txt/anillo.txt/anillo.txt|grep -n Gris anillos.txt/anillo.txt/anillo.txt
